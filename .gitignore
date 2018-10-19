@@ -1,4 +1,6 @@
-image/
 GL
 *.s
 *.d
+GL.txt
+GL.mk
+GL.project
