@@ -4,3 +4,6 @@ GL
 GL.txt
 GL.mk
 GL.project
+GL.vcxproj
+GL.vcxproj.filters
+Debug/
