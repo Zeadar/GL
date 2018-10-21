@@ -1,3 +1,7 @@
+#ifdef __WIN64
+#include <stdafx.h>
+#endif
+
 #include <iostream>
 #include <GL/glew.h>
 #include <SFML/Window.hpp>
