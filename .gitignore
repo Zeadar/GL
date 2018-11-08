@@ -7,3 +7,5 @@ GL.project
 GL.vcxproj
 GL.vcxproj.filters
 Debug/
+GL.vcxproj.user
+
