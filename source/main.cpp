@@ -1,7 +1,3 @@
-#ifdef __WIN64
-#include <stdafx.h>
-#endif
-
 #include <iostream>
 #include <GL/glew.h>
 #include <SFML/Window.hpp>
@@ -87,7 +83,7 @@ int main(){
     SOIL_free_image_data(image);
     glBindTexture(GL_TEXTURE_2D, 0);
     
-    ulong cycle_count = 0;
+    unsigned long cycle_count = 0;
     time_t old_time = 0;
     
     bool running = true;
